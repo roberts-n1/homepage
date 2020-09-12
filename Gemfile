@@ -57,5 +57,4 @@ gem 'haml', '~> 5.1', '>= 5.1.2'
 gem 'haml_lint', require: false
 gem 'overcommit', '~> 0.55.0'
 gem 'rubocop', '~> 0.90.0'
-gem 'scss_lint', '~> 0.59.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
