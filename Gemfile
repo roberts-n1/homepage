@@ -54,3 +54,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'haml', '~> 5.1', '>= 5.1.2'
 gem 'rubocop', '~> 0.90.0'
+gem 'scss_lint', '~> 0.59.0'
+gem 'overcommit', '~> 0.55.0'
