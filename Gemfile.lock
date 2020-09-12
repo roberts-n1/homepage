@@ -82,6 +82,11 @@ GEM
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
+    haml_lint (0.35.0)
+      haml (>= 4.0, < 5.2)
+      rainbow
+      rubocop (>= 0.50.0)
+      sysexits (~> 1.1)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     iniparse (1.5.0)
@@ -198,6 +203,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    sysexits (1.2.0)
     temple (0.8.2)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -236,6 +242,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   haml (~> 5.1, >= 5.1.2)
+  haml_lint
   jbuilder (~> 2.7)
   listen (~> 3.2)
   overcommit (~> 0.55.0)
