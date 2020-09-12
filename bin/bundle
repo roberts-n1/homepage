@@ -1,3 +1,6 @@
+# rubocop:disable
+-# haml-lint:disable
+
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
@@ -112,3 +115,5 @@ m.load_bundler!
 if m.invoked_as_script?
   load Gem.bin_path("bundler", "bundle")
 end
+-# haml-lint:enable
+# rubocop:enable
