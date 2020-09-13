@@ -11,11 +11,3 @@
         Index page
       %h2
         = t 'pages.title'
-      %h4
-        current locale:
-        = I18n.locale
-
-    .col-12
-      All locales:
-      - I18n.available_locales.each do |loc|
-        = loc
