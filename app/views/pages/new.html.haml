@@ -1,0 +1,15 @@
+.container
+  .row
+    .col-6
+      = link_to 'index', pages_path
+    .col-6.text-right
+      = link_to_unless_current 'English', locale: 'en'
+      |
+      = link_to_unless_current 'Latviešu', locale: 'lv'
+    .col-12
+      %h1
+        New page
+      %h2
+        = t 'pages.title'
+      %h4
+        = I18n.locale
